@@ -1,0 +1,28 @@
+:root {
+  --primary-color1: #0900ca;
+  --primary-color2: #d40000;
+}
+
+
+header {
+  background-color: black;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.video {
+  width: 100%;
+  aspect-ratio: 21/9;
+}
+
+
+@media (max-width: 1200px) {
+
+    .hide {
+
+        display: none;
+    }
+
+    
+}
