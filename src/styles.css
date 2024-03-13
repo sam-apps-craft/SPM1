@@ -2,7 +2,9 @@
   --primary-color1: #0900ca;
   --primary-color2: #d40000;
 }
-
+body {
+  background-color: #A7ADC3;
+}
 header {
   background-color: black;
 }
