@@ -17,7 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Orbit&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="src/stlyles.css" />
+    <link rel="stylesheet" href="src/styles.css" />
     <link rel="icon" href="Images/favicons.png" type="image/x-icon" />
 
     <script
@@ -25,6 +25,29 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <style>
+      .photo-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+        margin: 20px;
+      }
+
+      .photo-grid .photo-container {
+        flex: 0 1 300px;
+        max-width: 300px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        margin: 10px;
+        text-align: center;
+      }
+
+      .photo-grid img {
+        width: 100%;
+        height: auto;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -38,7 +61,7 @@
       </div>
     </header>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html"
           >><img src="Images/icon.png" alt="" width="50px" />
@@ -75,6 +98,9 @@
               <a class="nav-link" href="manutention.html">Manutention</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="blog.html">Blog</a>
             </li>
           </ul>
@@ -82,11 +108,94 @@
       </div>
     </nav>
 
- 
+    <div class="container mt-5">
+      <h2 style="text-align: center" id="Pétrochimie">Pétrochimie</h2>
+      <div class="photo-grid">
+        <div class="photo-container">
+          <img src="Images/Metal-Part-1.jpg" alt="Photo 1" />
+          <p>
+            Ici on peut afficher le détail des pièces réalisées pour
+            Pétrochimie, on peut changer les photos, ajouter des vidéos, mettre
+            en valeur les pièces les plus complexes réalisées par SPM.
+          </p>
+        </div>
+        <div class="photo-container">
+          <img src="Images/metal-part 2.png" alt="Photo 2" />
+          <p>
+            Ici on peut afficher le détail des pièces réalisées pour
+            Pétrochimie, on peut changer les photos, ajouter des vidéos, mettre
+            en valeur les pièces les plus complexes réalisées par SPM.
+          </p>
+        </div>
+        <div class="photo-container">
+          <img src="Images/Metal-Part-3.jpg" alt="Photo 3" />
+          <p>
+            Ici on peut afficher le détail des pièces réalisées pour
+            Pétrochimie, on peut changer les photos, ajouter des vidéos, mettre
+            en valeur les pièces les plus complexes réalisées par SPM.
+          </p>
+        </div>
+      </div>
+    </div>
 
-
-    
-
+    <div class="container mt-5">
+      <h2 style="text-align: center" id="Agro-alimentaire">Agro-alimentaire</h2>
+      <div class="photo-grid">
+        <div class="photo-container">
+          <img src="Images/Metal-Part-1.jpg" alt="Photo 1" />
+          <p>
+            Ici on peut afficher le détail des pièces réalisées pour
+            Agro-alimentaire, on peut changer les photos, ajouter des vidéos,
+            mettre en valeur les pièces les plus complexes réalisées par SPM.
+          </p>
+        </div>
+        <div class="photo-container">
+          <img src="Images/metal-part 2.png" alt="Photo 2" />
+          <p>
+            Ici on peut afficher le détail des pièces réalisées pour
+            Agro-alimentaire, on peut changer les photos, ajouter des vidéos,
+            mettre en valeur les pièces les plus complexes réalisées par SPM.
+          </p>
+        </div>
+        <div class="photo-container">
+          <img src="Images/Metal-Part-3.jpg" alt="Photo 3" />
+          <p>
+            Ici on peut afficher le détail des pièces réalisées pour
+            Agro-alimentaire, on peut changer les photos, ajouter des vidéos,
+            mettre en valeur les pièces les plus complexes réalisées par SPM.
+          </p>
+        </div>
+      </div>
+    </div>
+        <div class="container mt-5">
+      <h2 style="text-align: center" id="Hygiène">Hygiène</h2>
+      <div class="photo-grid">
+        <div class="photo-container">
+          <img src="Images/Metal-Part-1.jpg" alt="Photo 1" />
+          <p>
+            Ici on peut afficher le détail des pièces réalisées pour
+            Hygiène, on peut changer les photos, ajouter des vidéos,
+            mettre en valeur les pièces les plus complexes réalisées par SPM.
+          </p>
+        </div>
+        <div class="photo-container">
+          <img src="Images/metal-part 2.png" alt="Photo 2" />
+          <p>
+            Ici on peut afficher le détail des pièces réalisées pour
+            Hygiène, on peut changer les photos, ajouter des vidéos,
+            mettre en valeur les pièces les plus complexes réalisées par SPM.
+          </p>
+        </div>
+        <div class="photo-container">
+          <img src="Images/Metal-Part-3.jpg" alt="Photo 3" />
+          <p>
+            Ici on peut afficher le détail des pièces réalisées pour
+            Hygiène, on peut changer les photos, ajouter des vidéos,
+            mettre en valeur les pièces les plus complexes réalisées par SPM.
+          </p>
+        </div>
+      </div>
+    </div>
     <footer>
       <div class="card text-center mt-5">
         <div class="card-header"></div>

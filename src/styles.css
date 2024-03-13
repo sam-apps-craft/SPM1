@@ -1,0 +1,42 @@
+:root {
+  --primary-color1: #0900ca;
+  --primary-color2: #d40000;
+}
+
+header {
+  background-color: black;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 350px;
+}
+.video {
+  width: 100%;
+  aspect-ratio: 21/9;
+}
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.2);
+  border: solid 2px black;
+}
+
+.logo {
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+@media (max-width: 1200px) {
+  .hide {
+    display: none;
+  }
+}

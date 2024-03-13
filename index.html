@@ -17,7 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Orbit&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="src/stlyles.css" />
+    <link rel="stylesheet" href="src/styles.css" />
     <link rel="icon" href="Images/favicons.png" type="image/x-icon" />
 
     <script
@@ -25,67 +25,70 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <style></style>
   </head>
   <body>
-    <header>
+    <header class="fixed-top">
       <div class="text-center">
         <img
           src="Images/logo header.jpg"
           alt=""
-          class="img-fluid text-center"
+          class="img-fluid text-center logo"
           width="50%"
         />
       </div>
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            >><img src="Images/icon.png" alt="" width="50px" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link" href="equipements.html">Équipements</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="salle.html">Salle de contrôle</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="informatiques.html">Informatiques</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="matières.html"
+                  >Matières travaillées</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="manutention.html">Manutention</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"
-          >><img src="Images/icon.png" alt="" width="50px" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul
-            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-            style="--bs-scroll-height: 100px"
-          >
-            <li class="nav-item">
-              <a class="nav-link" href="equipements.html">Équipements</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="salle.html">Salle de contrôle</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="informatiques.html">Informatiques</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="matières.html">Matières travaillées</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="manutention.html">Manutention</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html">Blog</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <div class="container mt-5">
+    <div class="container">
       <h1 class="text-center">Provençale de Mécanique</h1>
 
       <p class="text-center">
@@ -113,7 +116,8 @@
         <div class="card-body">
           <h5 class="card-title">Pétrochimie</h5>
           <p class="card-text">
-            details ?
+            Ici, nous pouvons afficher les détails des entreprises avec
+            lesquelles nous avons travaillé ou où dans le monde par exemple.
           </p>
           <a href="gallery.html" class="btn btn-primary">Gallery</a>
         </div>
@@ -127,9 +131,12 @@
         <div class="card-body">
           <h5 class="card-title">Agro-alimentaire</h5>
           <p class="card-text">
-             details ?
+            Ici, nous pouvons afficher les détails des entreprises avec
+            lesquelles nous avons travaillé ou où dans le monde par exemple.
           </p>
-          <a href="gallery.html" class="btn btn-primary">Gallery</a>
+          <a href="gallery.html#Agro-alimentaire" class="btn btn-primary"
+            >Gallery</a
+          >
         </div>
       </div>
       <div class="card text-center">
@@ -137,9 +144,10 @@
         <div class="card-body">
           <h5 class="card-title">Hygiène</h5>
           <p class="card-text">
-             details ?
+            Ici, nous pouvons afficher les détails des entreprises avec
+            lesquelles nous avons travaillé ou où dans le monde par exemple.
           </p>
-          <a href="gallery.html" class="btn btn-primary">Gallery</a>
+          <a href="gallery.html#Hygiène" class="btn btn-primary">Gallery</a>
         </div>
       </div>
       <div class="card text-center">
@@ -151,7 +159,8 @@
         <div class="card-body">
           <h5 class="card-title">Machine spéciale</h5>
           <p class="card-text">
-             details ?
+            Ici, nous pouvons afficher les détails des entreprises avec
+            lesquelles nous avons travaillé ou où dans le monde par exemple.
           </p>
           <a href="gallery.html" class="btn btn-primary">Gallery</a>
         </div>
@@ -161,7 +170,8 @@
         <div class="card-body">
           <h5 class="card-title">Papeterie</h5>
           <p class="card-text">
-             details ?
+            Ici, nous pouvons afficher les détails des entreprises avec
+            lesquelles nous avons travaillé ou où dans le monde par exemple.
           </p>
           <a href="gallery.html" class="btn btn-primary">Gallery</a>
         </div>
@@ -171,7 +181,8 @@
         <div class="card-body">
           <h5 class="card-title">Nucléaire</h5>
           <p class="card-text">
-             details ?
+            Ici, nous pouvons afficher les détails des entreprises avec
+            lesquelles nous avons travaillé ou où dans le monde par exemple.
           </p>
           <a href="gallery.html" class="btn btn-primary">Gallery</a>
         </div>
