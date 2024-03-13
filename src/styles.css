@@ -8,7 +8,6 @@ header {
 }
 .container {
   max-width: 1200px;
-  margin: 0 auto;
   margin-top: 450px;
 }
 .video {
@@ -17,11 +16,15 @@ header {
 }
 .card {
   transition: transform 0.3s;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 15px;
 }
 
 .card:hover {
   transform: scale(1.2);
-  border: solid 2px black;
+  border-color: #0900ca;
+
 }
 
 .logo {
@@ -34,6 +37,29 @@ header {
   position: sticky;
   top: 0;
   right: 0;
+}
+
+.custom-container {
+  padding: 25px;
+}
+
+.photo-column {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-column .card {
+  width: 100%;
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #dee2e6;
+  padding: 8px;
 }
 @media (max-width: 1200px) {
   .hide {
