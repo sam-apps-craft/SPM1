@@ -10,7 +10,7 @@ header {
 }
 .container {
   max-width: 1200px;
-  margin-top: 450px;
+  margin-top: 250px;
 }
 .video {
   width: 100%;
@@ -26,13 +26,14 @@ header {
 .card:hover {
   transform: scale(1.2);
   border-color: #0900ca;
-
 }
 
 .logo {
   position: sticky;
   top: 0;
   left: 0;
+  max-height: 200px;
+  max-width: 400px;
 }
 
 .navbar {
@@ -43,6 +44,14 @@ header {
 
 .custom-container {
   padding: 25px;
+}
+
+.ep1500 {
+  margin-top: 300px;
+  cursor: default;
+}
+.ep1500photo{
+  cursor: default;
 }
 
 .photo-column {
