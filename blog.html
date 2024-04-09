@@ -30,12 +30,13 @@
   <body>
     <header class="fixed-top">
       <div class="text-center">
-        <img
-          src="Images/logo header.jpg"
-          alt=""
-          class="img-fluid text-center logo"
-          width="50%"
-        />
+        <a href="index.html">
+          <img
+            src="Images/logo header.jpg"
+            alt=""
+            class="img-fluid text-center logo"
+            width="50%"
+        /></a>
       </div>
 
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -100,8 +101,10 @@
 
               <img
                 src="Images/Karting.jpg"
+                data-toggle="modal"
+                data-target="#enlargedModal"
                 alt="3rd place karting"
-                class="img-fluid"
+                class="img-fluid karting"
               />
             </div>
           </div>
@@ -117,7 +120,6 @@
 
               <iframe
                 class="video atelier img-fluid"
-              
                 src="https://www.youtube.com/embed/UE8YqIEhONs"
                 title="Precision Engineering Inc - Factory Tour 2020"
                 frameborder="0"

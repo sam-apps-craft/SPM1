@@ -8,6 +8,26 @@ body {
 header {
   background-color: black;
 }
+
+.fullscreen-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 9999;
+  opacity: 1;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.loaded {
+  opacity: 0;
+  pointer-events: none;
+}
 .container {
   max-width: 1200px;
   margin-top: 250px;
@@ -22,7 +42,9 @@ header {
   margin-right: 25px;
   border-radius: 15px;
 }
-
+.salle {
+  padding: 100px;
+}
 .card:hover {
   transform: scale(1.2);
   border-color: #0900ca;
@@ -67,6 +89,13 @@ header {
   border: 1px solid #dee2e6;
 }
 
+.karting {
+  transition: transform 0.3s;
+}
+
+.karting:hover {
+  transform: scale(2.2);
+}
 .table-bordered th,
 .table-bordered td {
   border: 1px solid #dee2e6;

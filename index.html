@@ -27,15 +27,20 @@
     ></script>
     <style></style>
   </head>
+ <div id="logo" class="fullscreen-logo">
+<img src="Images/icon.png" alt="icon">
+</div>
+
   <body>
     <header class="fixed-top">
       <div class="text-center">
+        <a href="index.html">
         <img
           src="Images/logo header.jpg"
           alt=""
           class="img-fluid text-center logo"
           width="50%"
-        />
+        /></a>
       </div>
 
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -92,11 +97,11 @@
       <h1 class="text-center">Société Provençale de Mécanique</h1>
 
       <p class="text-center">
-        Société Provençale de Mécanique est une entreprise familiale dont l’implication
-        et la réactivité sont appréciées depuis plus de 30 ans par de grands
-        donneurs d’ordre dans les secteurs de l’aéronautique, du nucléaire et du
-        médical. Forts de notre expérience et de la qualité de nos réalisations
-        dans le domaine de l’usinage de précision.
+        Société Provençale de Mécanique est une entreprise familiale dont
+        l’implication et la réactivité sont appréciées depuis plus de 30 ans par
+        de grands donneurs d’ordre dans les secteurs de l’aéronautique, du
+        nucléaire et du médical. Forts de notre expérience et de la qualité de
+        nos réalisations dans le domaine de l’usinage de précision.
       </p>
       <br />
       <p class="text-center">
@@ -106,9 +111,8 @@
       </p>
     </div>
 
-    <div class="card-group container mt-5 hide  ">
-      
-      <div class="card text-center ">
+    <div class="card-group container mt-5 hide">
+      <div class="card text-center">
         <img
           src="Images/Pétrochimie.jpg"
           class="card-img-top"
@@ -117,7 +121,7 @@
         <div class="card-body">
           <h5 class="card-title">Pétrochimie</h5>
           <p class="card-text">
-            <br>
+            <br />
             Afficher les détails dans ce domaine.
           </p>
           <a href="gallery.html" class="btn btn-primary">Gallery</a>
@@ -131,9 +135,7 @@
         />
         <div class="card-body">
           <h5 class="card-title">Agro-alimentaire</h5>
-          <p class="card-text">
-          Afficher les détails dans ce domaine.
-          </p>
+          <p class="card-text">Afficher les détails dans ce domaine.</p>
           <a href="gallery.html#Agro-alimentaire" class="btn btn-primary"
             >Gallery</a
           >
@@ -143,8 +145,9 @@
         <img src="Images/Hygiène.jpg" class="card-img-top" alt="Hygiène" />
         <div class="card-body">
           <h5 class="card-title">Hygiène</h5>
-          <p class="card-text"> <br>
-        Afficher les détails dans ce domaine.
+          <p class="card-text">
+            <br />
+            Afficher les détails dans ce domaine.
           </p>
           <a href="gallery.html#Hygiène" class="btn btn-primary">Gallery</a>
         </div>
@@ -157,9 +160,7 @@
         />
         <div class="card-body">
           <h5 class="card-title">Machine spéciale</h5>
-          <p class="card-text">
-    Afficher les détails dans ce domaine.
-          </p>
+          <p class="card-text">Afficher les détails dans ce domaine.</p>
           <a href="gallery.html" class="btn btn-primary">Gallery</a>
         </div>
       </div>
@@ -167,8 +168,9 @@
         <img src="Images/Papeterie.jpg" class="card-img-top" alt="Papeterie" />
         <div class="card-body">
           <h5 class="card-title">Papeterie</h5>
-          <p class="card-text"> <br>
-       Afficher les détails dans ce domaine.
+          <p class="card-text">
+            <br />
+            Afficher les détails dans ce domaine.
           </p>
           <a href="gallery.html" class="btn btn-primary">Gallery</a>
         </div>
@@ -177,8 +179,9 @@
         <img src="Images/Nucléaire.jpg" class="card-img-top" alt="Nucléaire" />
         <div class="card-body">
           <h5 class="card-title">Nucléaire</h5>
-          <p class="card-text"> <br>
-    Afficher les détails dans ce domaine.
+          <p class="card-text">
+            <br />
+            Afficher les détails dans ce domaine.
           </p>
           <a href="gallery.html" class="btn btn-primary">Gallery</a>
         </div>
@@ -229,5 +232,12 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      window.addEventListener("load", function () {
+        var logo = document.getElementById("logo");
+        logo.classList.add("loaded");
+      });
+    </script>
   </body>
 </html>
