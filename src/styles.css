@@ -8,7 +8,13 @@ body {
 header {
   background-color: black;
 }
+.navbar {
+  z-index: 9999;
+}
 
+.card {
+  z-index: 1;
+}
 .fullscreen-logo {
   display: flex;
   align-items: center;
@@ -72,7 +78,7 @@ header {
   margin-top: 300px;
   cursor: default;
 }
-.ep1500photo{
+.ep1500photo {
   cursor: default;
 }
 
