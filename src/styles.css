@@ -12,8 +12,11 @@ header {
   z-index: 9999;
 }
 
+.linkedin {
+  font-size: 40px;
+}
 .card {
-  z-index: 1;
+  z-index: 2.25;
 }
 .fullscreen-logo {
   display: flex;
@@ -36,7 +39,12 @@ header {
 }
 .container {
   max-width: 1200px;
+  margin-top: 50px;
+}
+
+.margin-top{
   margin-top: 250px;
+  
 }
 .video {
   width: 100%;
@@ -52,7 +60,7 @@ header {
   padding: 100px;
 }
 .card:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   border-color: #0900ca;
 }
 
@@ -94,6 +102,11 @@ header {
 .table-bordered {
   border: 1px solid #dee2e6;
 }
+.blog{
+  margin-top: 50px;
+}
+
+
 
 .karting {
   transition: transform 0.3s;
@@ -107,7 +120,7 @@ header {
   border: 1px solid #dee2e6;
   padding: 8px;
 }
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
   .hide {
     display: none;
   }
